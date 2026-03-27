@@ -1,4 +1,6 @@
 package com.cryptosentry.security;
 
-public class Role {
+public enum Role {
+    USER,
+    ANALYST
 }
