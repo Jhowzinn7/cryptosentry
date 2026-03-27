@@ -1,17 +1,17 @@
- CryptoSentry (Em desenvolvimento 🚧)
+ CryptoSentry (In Development )
 
-Projeto backend em Spring Boot focado em detecção de fraudes.
+Backend project built with Spring Boot focused on fraud detection.
 
- Tecnologias
+ Technologies
 - Java
 - Spring Boot
-- Spring Security (em implementação)
-- JWT (em desenvolvimento)
+- Spring Security (in progress)
+- JWT (in development)
 - PostgreSQL
-- docker
+- Docker
 
  Status
-Projeto em desenvolvimento — atualmente implementando autenticação e segurança.
+Project under development — currently implementing authentication and security.
 
- Objetivo
-Criar um sistema capaz de identificar transações suspeitas.
+ Objective
+To build a system capable of identifying suspicious transactions.
