@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <!-- 🔹 Versão do modelo do Maven -->
+    <!--  Versão do modelo do Maven -->
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- 🔹 Configuração base do Spring Boot -->
+    <!--  Configuração base do Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -14,12 +14,12 @@
         <relativePath/>
     </parent>
 
-    <!-- 🔹 Identificação do projeto -->
+    <!--  Identificação do projeto -->
     <groupId>com.cryptosentry</groupId>
     <artifactId>cryptosentry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- 🔹 Versão do Java -->
+    <!--  Versão do Java -->
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -101,6 +101,12 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+          <!-- POSTSQL -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
 
